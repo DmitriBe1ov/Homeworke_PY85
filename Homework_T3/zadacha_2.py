@@ -1,6 +1,7 @@
 name = (input("Введите ваше имя: "))
 age = (input("Введите ваш возраст: "))
-if age.isdigit():
+if age.isdigit() and name.isalpha():
+    age = int(age)
     if int(age) <= 0:
         print("Ошибка, повторите ввод")
     elif int(age) > 0 and int(age) < 10:
