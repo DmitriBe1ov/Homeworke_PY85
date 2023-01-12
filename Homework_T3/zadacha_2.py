@@ -13,4 +13,4 @@ if age.isdigit() and name.isalpha():
     else:
         print(f"{name}, вы лжёте - в наше время столько не живут...")
 else:
-    print("Ошибка, повторите ввод")ss
+    print("Ошибка, повторите ввод")
